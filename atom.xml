@@ -3,11 +3,11 @@
   <title>WushaohongのBlog</title>
   
   
-  <link href="https://wushaohong.gitee.io/hexo-blog/atom.xml" rel="self"/>
+  <link href="https://wushaohong.gitee.io/atom.xml" rel="self"/>
   
-  <link href="https://wushaohong.gitee.io/hexo-blog/"/>
+  <link href="https://wushaohong.gitee.io/"/>
   <updated>2020-10-11T03:58:16.498Z</updated>
-  <id>https://wushaohong.gitee.io/hexo-blog/</id>
+  <id>https://wushaohong.gitee.io/</id>
   
   <author>
     <name>WuShaohong</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://wushaohong.gitee.io/hexo-blog/2020/10/11/hello-world/"/>
-    <id>https://wushaohong.gitee.io/hexo-blog/2020/10/11/hello-world/</id>
+    <link href="https://wushaohong.gitee.io/2020/10/11/hello-world/"/>
+    <id>https://wushaohong.gitee.io/2020/10/11/hello-world/</id>
     <published>2020-10-11T03:58:16.498Z</published>
     <updated>2020-10-11T03:58:16.498Z</updated>
     

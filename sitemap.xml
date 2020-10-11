@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://wushaohong.gitee.io/hexo-blog/2020/10/11/hello-world/</loc>
+    <loc>https://wushaohong.gitee.io/2020/10/11/hello-world/</loc>
     
     <lastmod>2020-10-11</lastmod>
     
@@ -10,7 +10,7 @@
   
 
   <url>
-    <loc>https://wushaohong.gitee.io/hexo-blog</loc>
+    <loc>https://wushaohong.gitee.io/</loc>
     <lastmod>2020-10-11</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
