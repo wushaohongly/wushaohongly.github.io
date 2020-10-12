@@ -21,18 +21,24 @@
 <p>2、进入1步骤创建的工程文件夹，右击鼠标，Git Bash Here，打开Git 命令窗口，输入以下命令初始化Hexo 工程项目</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo init</span><br></pre></td></tr></table></figure>
 
+
+
 <p>3、完成2步骤，接着使用“Hexo 三连”命令，清空生成的静态文件、生成静态文件、启动本地服务</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo generate		<span class="comment"># hexo g</span></span><br><span class="line">$ hexo server	<span class="comment"># hexo s</span></span><br></pre></td></tr></table></figure>
 
+
+
 <p>4、本地访问，浏览器输入地址 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 就能访问Hexo 创建的博客网页了。需要停止本地服务的话，在Git 命令行上面 Ctrl+C 即可。</p>
+<p><img src="/hexo-blog/2020/10/12/Hexo&Gitee/1.png"></p>
 <p>5、更换主题，<a target="_blank" rel="noopener" href="https://hexo.io/themes/">Hexo 官网</a>提供了丰富的主题样式，用户可以根据喜欢下载使用。打开官网主题网页，点击想要下载的主题，在主题页面找到GitHub 地址（或者是超链接的GitHub 图标），进入作者的GitHub，找到对应主题名称项目，点击进入主题项目，使用git clone下载或者直接下载zip 压缩包。<br>        将主题压缩包复制到Hexo 工程目录下的themes 文件夹下，解压到当前文件夹（或者clone 下来的主题工程复制到themes 文件夹下）。</p>
+<p><img src="/hexo-blog/2020/10/12/Hexo&Gitee/2.png"></p>
 <p>​        修改Hexo 工程根目录下的 _config.yml 内容（使用记事本/其他文本编辑工具），找到</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Extensions</span></span><br><span class="line"><span class="comment">## Plugins: https://hexo.io/plugins/</span></span><br><span class="line"><span class="comment">## Themes: https://hexo.io/themes/</span></span><br><span class="line"><span class="attr">theme:</span> <span class="string">hexo-theme-melody-dev</span>	<span class="comment"># 此处改成 theme目录下面要替换的主题的文件夹名称</span></span><br></pre></td></tr></table></figure>
 
 <p>​        重复3、4步骤即可访问到替换后的博客主题了。</p>
 <p>6、关于_config.yml</p>
 <p>​        博客工程的主要配置文件，里面除了可以配置主题，还能够修改项目信息，后续的Gitee仓库信息也是配置在 _config.yml当中</p>
-<p>报错&amp;处理：遇到报错的话不要慌</p>
+<p>*报错&amp;处理：遇到报错的话不要慌</p>
 <p>​    （1）、更换主题后，访问 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a> 出现以下错误，extends includes/layout.pug block content include includes/recent-posts.pug include</p>
 <p>​        在Git 命令窗口，输入以下命令回车，并且重新Hexo 三连</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive</span><br></pre></td></tr></table></figure>
@@ -40,30 +46,41 @@
 
 
 
-<h2 id="Gitee部署"><a href="#Gitee部署" class="headerlink" title="Gitee部署"></a>Gitee部署</h2><h3 id="创建Gitee-的博客仓库"><a href="#创建Gitee-的博客仓库" class="headerlink" title="创建Gitee 的博客仓库"></a>创建Gitee 的博客仓库</h3><p>​        主要填写与Hexo 工程一样的名称，是否开源设置为开放，创建；创建成功后，在仓库页面找到到git 地址，如 <a href="mailto:&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#x65;&#101;&#46;&#x63;&#x6f;&#109;">&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#x65;&#101;&#46;&#x63;&#x6f;&#109;</a>:wushaohong/hexo-blog.git</p>
+<h2 id="Gitee部署"><a href="#Gitee部署" class="headerlink" title="Gitee部署"></a>Gitee部署</h2><h3 id="创建Gitee-的博客仓库"><a href="#创建Gitee-的博客仓库" class="headerlink" title="创建Gitee 的博客仓库"></a>创建Gitee 的博客仓库</h3><p>​        主要填写与Hexo 工程一样的名称，是否开源设置为开放，创建；创建成功后，在仓库页面找到到git 地址，如 <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#101;&#101;&#46;&#x63;&#111;&#109;">&#103;&#105;&#x74;&#64;&#x67;&#105;&#x74;&#101;&#101;&#46;&#x63;&#111;&#109;</a>:wushaohong/hexo-blog.git</p>
 <h3 id="配置Hexo-仓库信息"><a href="#配置Hexo-仓库信息" class="headerlink" title="配置Hexo 仓库信息"></a>配置Hexo 仓库信息</h3><p>编辑_config.yml ，找到 Deployment节点</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># Deployment</span></span><br><span class="line"><span class="comment">## Docs: https://hexo.io/docs/one-command-deployment</span></span><br><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span>	<span class="comment"># 修改成 git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@gitee.com:wushaohong/hexo-blog.git</span> <span class="comment"># 具体的仓库git地址</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span>	<span class="comment"># 分支设置为主干（目前没有其他分支）</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="Gitee-添加ssh-公钥"><a href="#Gitee-添加ssh-公钥" class="headerlink" title="Gitee 添加ssh 公钥"></a>Gitee 添加ssh 公钥</h3><p>1、使用Git 命令窗口，检查是否存在本主机的ssh 密钥，如果存在，则会返回以下信息</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ <span class="built_in">cd</span> ~/.ssh</span><br><span class="line">$ ls</span><br><span class="line">id_rsa  id_rsa.pub  known_hosts</span><br></pre></td></tr></table></figure>
+
+
+
 <p>2、否则，手动创建本主机的ssh 密钥</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">&quot;你的邮箱&quot;</span></span><br></pre></td></tr></table></figure>
 <p>*接下来会提示是否在当前目录创建，输入 yes回车就好</p>
 <p>*再接着会提示设置密码，密码随意，不设置的话回车两次，设置则输入回车，重复密码回车就好</p>
 <p>3、创建成功的密钥后，使用命令将密钥信息复制到剪切板</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ clip &lt; ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+
+
 <p>4、将密钥信息添加到Gitee</p>
-<p>进入Gitee 博客仓库，管理，部署公钥管理，添加公钥，添加个人公钥，在公钥输入框粘贴，确定即可</p>
-<p><img src="/hexo-blog/2020/10/12/Hexo&Gitee/5.png" alt="xxx"></p>
+<p>进入Gitee 博客仓库，管理，部署公钥管理，添加公钥，添加个人公钥，在公钥输入框粘贴，确定即可；</p>
+<p>或者个人设置，SSH公钥，添加</p>
+<p><img src="/hexo-blog/2020/10/12/Hexo&Gitee/3.png"></p>
 <p>5、测试</p>
+<p>#TODO</p>
 <h3 id="部署到Gitee-仓库"><a href="#部署到Gitee-仓库" class="headerlink" title="部署到Gitee 仓库"></a>部署到Gitee 仓库</h3><p>回到Hexo 的项目文件夹，使用Git 命令窗口，部署</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
 <p>提交成功后，回到Gitee 博客仓库，服务，Gitee Pages，启动服务即可获得访问网站地址，如：<a href="https://wushaohong.gitee.io/hexo-blog">https://wushaohong.gitee.io/hexo-blog</a></p>
-<p>错误&amp;处理：</p>
-<p>1、$ hexo d -g 报错：ERROR Deployer not found: git</p>
+<p><img src="/hexo-blog/2020/10/12/Hexo&Gitee/4.png"></p>
+<p>*错误&amp;处理：</p>
+<p>（1）、$ hexo d -g 报错：ERROR Deployer not found: git</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm install --save hexo-deployer-git</span><br></pre></td></tr></table></figure>
 
-<p>2、出现css等资源样式无法加载问题，不要慌，打开<a target="_blank" rel="noopener" href="https://gitee.com/help/articles/4136#article-header0">Gitee Pages 帮助页面</a>， 常见问题的 2，具体根据项目名称修改即可。</p>
+
+
+<p>（2）、出现css等资源样式无法加载问题，不要慌，打开<a target="_blank" rel="noopener" href="https://gitee.com/help/articles/4136#article-header0">Gitee Pages 帮助页面</a>， 常见问题的 2，具体根据项目名称修改即可。</p>
 <p>例子工程config.yml 文件的URL 节点：</p>
 <figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># URL</span></span><br><span class="line"><span class="comment">## If your site is put in a subdirectory, set url as &#x27;http://example.com/child&#x27; and root as &#x27;/child/&#x27;</span></span><br><span class="line"><span class="attr">url:</span> <span class="string">https://wushaohong.gitee.io/</span></span><br><span class="line"><span class="attr">root:</span> <span class="string">/hexo-blog</span></span><br><span class="line"><span class="attr">permalink:</span> <span class="string">:year/:month/:day/:title/</span></span><br><span class="line"><span class="attr">permalink_defaults:</span></span><br></pre></td></tr></table></figure>
 
@@ -73,7 +90,7 @@
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean</span><br><span class="line">$ hexo d -g</span><br></pre></td></tr></table></figure>
 
 <p>再回到Gitee Pages服务页面，点击更新，就能通过网站地址正常访问了</p>
-<p>3、部署的时候报错 DeployKey does not support push code fatal: Could not read from remote repository.</p>
+<p>（3）、部署的时候报错 DeployKey does not support push code fatal: Could not read from remote repository.</p>
 <p>公钥不对，或者添加地方错了，需要添加为个人公钥</p>
 </div></article><div class="post-meta__tag-list"></div><nav id="pagination"><div class="next-post pull-right"><a href="/hexo-blog/2020/10/11/hello-world/"><span>Hello World</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer class="footer-bg" style="background-image: url(https://timgsa.baidu.com/timg?image&amp;quality=80&amp;size=b9999_10000&amp;sec=1602489080558&amp;di=0dbbed72cc7f877b951b367d4a9ed292&amp;imgtype=0&amp;src=http%3A%2F%2Fattach.bbs.miui.com%2Fforum%2F201504%2F05%2F094406wb74eokgpu7fuxnz.jpg)"><div class="layout" id="footer"><div class="copyright">&copy;2020 By WuShaohong</div><div class="framework-info"><span>驱动 - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>主题 - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-eye"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/hexo-blog/js/utils.js?version=1.8.2"></script><script src="/hexo-blog/js/fancybox.js?version=1.8.2"></script><script src="/hexo-blog/js/sidebar.js?version=1.8.2"></script><script src="/hexo-blog/js/copy.js?version=1.8.2"></script><script src="/hexo-blog/js/fireworks.js?version=1.8.2"></script><script src="/hexo-blog/js/transition.js?version=1.8.2"></script><script src="/hexo-blog/js/scroll.js?version=1.8.2"></script><script src="/hexo-blog/js/head.js?version=1.8.2"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
   $('#nav').addClass('is-mobile')
