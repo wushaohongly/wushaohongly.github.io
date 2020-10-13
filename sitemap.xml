@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wushaohong.gitee.io/2020/10/12/Hexo%E6%92%B0%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    
+    <lastmod>2020-10-13</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wushaohong.gitee.io/2020/10/12/Hexo&Gitee/</loc>
     
     <lastmod>2020-10-12</lastmod>
@@ -18,7 +25,7 @@
 
   <url>
     <loc>https://wushaohong.gitee.io/</loc>
-    <lastmod>2020-10-12</lastmod>
+    <lastmod>2020-10-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
