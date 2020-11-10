@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wushaohong.gitee.io/2020/10/29/Android-Cling%E6%8A%95%E5%B1%8F/</loc>
+    
+    <lastmod>2020-11-10</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wushaohong.gitee.io/about/index.html</loc>
     
     <lastmod>2020-10-13</lastmod>
@@ -46,7 +53,7 @@
 
   <url>
     <loc>https://wushaohong.gitee.io/</loc>
-    <lastmod>2020-10-13</lastmod>
+    <lastmod>2020-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -54,7 +61,14 @@
   
   <url>
     <loc>https://wushaohong.gitee.io/tags/Hexo/</loc>
-    <lastmod>2020-10-13</lastmod>
+    <lastmod>2020-11-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wushaohong.gitee.io/tags/Android/</loc>
+    <lastmod>2020-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -63,7 +77,14 @@
   
   <url>
     <loc>https://wushaohong.gitee.io/categories/Hexo/</loc>
-    <lastmod>2020-10-13</lastmod>
+    <lastmod>2020-11-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wushaohong.gitee.io/categories/Android/</loc>
+    <lastmod>2020-11-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
