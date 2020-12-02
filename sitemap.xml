@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wushaohongly.github.io/2020/11/27/Android-CoordinatorLayout/</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wushaohongly.github.io/2020/11/11/Android-Cling%E6%8A%95%E5%B1%8F/</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wushaohongly.github.io/2020/11/11/Android%E4%B8%80%E8%A1%8C%E6%B3%A8%E8%A7%A3%E7%94%B3%E8%AF%B7%E6%9D%83%E9%99%90AOP%E6%96%B9%E5%BC%8F%E6%9C%80%E4%BD%B3%E5%AE%9E%E7%8E%B0/</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wushaohongly.github.io/2020/10/13/Hexo%E6%92%B0%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://wushaohongly.github.io/2020/10/13/Hexo&Gitee/</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wushaohongly.github.io/2020/10/01/hello-world/</loc>
     
     <lastmod>2020-12-02</lastmod>
@@ -9,42 +44,7 @@
   </url>
   
   <url>
-    <loc>https://wushaohongly.github.io/2020/12/02/Android-CoordinatorLayout/</loc>
-    
-    <lastmod>2020-11-27</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wushaohongly.github.io/2020/12/02/Android%E4%B8%80%E8%A1%8C%E6%B3%A8%E8%A7%A3%E7%94%B3%E8%AF%B7%E6%9D%83%E9%99%90AOP%E6%96%B9%E5%BC%8F%E6%9C%80%E4%BD%B3%E5%AE%9E%E7%8E%B0/</loc>
-    
-    <lastmod>2020-11-11</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wushaohongly.github.io/2020/12/02/Android-Cling%E6%8A%95%E5%B1%8F/</loc>
-    
-    <lastmod>2020-11-11</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://wushaohongly.github.io/about/index.html</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wushaohongly.github.io/2020/12/02/Hexo%E6%92%B0%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wushaohongly.github.io/2020/12/02/Hexo&Gitee/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>https://wushaohongly.github.io/tags/AOP/</loc>
+    <loc>https://wushaohongly.github.io/tags/UI/</loc>
     <lastmod>2020-12-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wushaohongly.github.io/tags/UI/</loc>
+    <loc>https://wushaohongly.github.io/tags/AOP/</loc>
     <lastmod>2020-12-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
