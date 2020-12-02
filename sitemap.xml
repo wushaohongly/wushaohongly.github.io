@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wushaohongly.github.io/2020/10/01/hello-world/</loc>
+    
+    <lastmod>2020-12-02</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wushaohongly.github.io/2020/12/02/Android-CoordinatorLayout/</loc>
     
     <lastmod>2020-11-27</lastmod>
@@ -31,13 +38,6 @@
   
   <url>
     <loc>https://wushaohongly.github.io/2020/12/02/Hexo%E6%92%B0%E5%86%99%E7%AC%AC%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/</loc>
-    
-    <lastmod>2020-10-13</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://wushaohongly.github.io/2020/12/02/hello-world/</loc>
     
     <lastmod>2020-10-13</lastmod>
     
@@ -74,14 +74,14 @@
 
   
   <url>
-    <loc>https://wushaohongly.github.io/tags/UI/</loc>
+    <loc>https://wushaohongly.github.io/tags/AOP/</loc>
     <lastmod>2020-12-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>https://wushaohongly.github.io/tags/AOP/</loc>
+    <loc>https://wushaohongly.github.io/tags/UI/</loc>
     <lastmod>2020-12-02</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
