@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://wushaohongly.github.io/2020/12/29/Android-MediaExtractor&MediaCodec/</loc>
+    
+    <lastmod>2020-12-29</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://wushaohongly.github.io/2020/11/27/Android-CoordinatorLayout/</loc>
     
     <lastmod>2020-12-02</lastmod>
@@ -67,7 +74,7 @@
 
   <url>
     <loc>https://wushaohongly.github.io/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -75,28 +82,35 @@
   
   <url>
     <loc>https://wushaohongly.github.io/tags/UI/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://wushaohongly.github.io/tags/AOP/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://wushaohongly.github.io/tags/Hexo/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://wushaohongly.github.io/tags/%E6%8A%95%E5%B1%8F/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <lastmod>2020-12-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://wushaohongly.github.io/tags/Media/</loc>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -105,14 +119,14 @@
   
   <url>
     <loc>https://wushaohongly.github.io/categories/Android/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://wushaohongly.github.io/categories/Hexo/</loc>
-    <lastmod>2020-12-02</lastmod>
+    <lastmod>2020-12-29</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
